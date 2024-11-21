@@ -1,0 +1,13 @@
+﻿@page
+@using System.Reflection.Metadata
+@model IndexModel
+@{
+    ViewData["Title"] = "Консолечка винды";
+    var initialDirectory = Directory.GetCurrentDirectory().Replace("\\", "\\\\");
+}
+
+
+<div id="console">
+    <div id="output"></div>
+    <div id="prompt"><span id="current-directory">@initialDirectory</span> > <input type="text" id="command" autofocus /></div>
+</div>

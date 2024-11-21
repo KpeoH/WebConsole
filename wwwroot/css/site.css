@@ -1,0 +1,30 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+#console {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+
+  height: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+#command {
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+}
+
